@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Open in vscode.dev",
+    "description": "Attempts to open the current url in vscode.dev",
+    "version": "1.0",
+    "action": {
+      "default_popup": "intro.html",
+      "default_icon": "extensionIcon.png"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ]
+  }
+  
